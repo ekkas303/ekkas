@@ -1,0 +1,539 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    height:600px;
+    max-width:1440px;
+    min-width:375px;
+    background:hsl(0, 0%, 98%);
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+    
+}
+
+.background_shadow{
+    height:100%;
+    width:100%;
+    position:absolute;
+    background: hsla(0, 0%, 8%, 0.301);
+    z-index:55;
+    display:none;
+}
+
+.navbar{
+    height:10%;
+    width:100%;
+    background:none;
+    display:flex;
+    
+
+}
+/* containers */
+.navleft_container{
+    height:100%;
+    width:674.5px;
+    background:none;
+    display:flex;
+    
+    
+}
+
+.navright_container{
+    height:100%;
+    width:50%;
+    background:none;
+    display:flex;
+    align-items: center;
+    justify-content: flex-end;
+    color: hsl(0, 0%, 41%);
+    
+    
+}
+
+/*navbar left side links*/
+h2:hover{
+    cursor:default;
+}
+#features{
+    transition: 0.3s;
+    
+}
+#company{
+    transition: 0.3s;
+}
+.careers{
+    transition: 0.3s;
+}
+.about{
+    transition: 0.3s;
+}
+
+#features:hover{
+    color:hsl(0, 0%, 8%);
+    cursor:pointer;
+}
+
+#company:hover{
+    color:hsl(0, 0%, 8%);
+    cursor:pointer;
+}
+
+.careers:hover{
+    color:hsl(0, 0%, 8%);
+    cursor:pointer;
+}
+
+.about:hover{
+    color:hsl(0, 0%, 8%);
+    cursor:pointer;
+
+}
+
+#links_desktop{
+    display:grid;
+    gap:5px;
+}
+/*navbar left side links end*/
+
+
+.login{
+    margin-right:7%;
+   transition:0.3s;
+
+   
+}
+
+.login:hover{
+color:hsl(0, 0%, 8%);
+cursor:pointer;
+
+}
+
+.register{
+    margin-right:7%;
+    border-style:solid;
+    background:none;
+    padding:0.5rem;
+    border-radius: 1rem;
+    border-width:1px;
+    border-color:hsl(0, 0%, 41%);
+    color:hsl(0, 0%, 41%);
+    transition:0.3s;
+   
+   
+}
+
+.register:hover{
+    color:hsl(0, 0%, 8%);
+    cursor:pointer;
+    border-color: hsl(0, 0%, 8%);
+}
+
+.snap_container{
+    width:155.33px;
+    height:100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.fcca_container{
+    width:376px;
+    height:100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    
+    color:hsl(0, 0%, 41%);
+   
+
+}
+
+
+.feature_article{
+width:8rem;
+height:7rem;
+padding-top:10px;
+padding-bottom: 10px;
+background:white;
+position:absolute;
+left:25%;
+display:none;
+border-radius: 0.5rem;
+box-shadow:0.5rem 0 1rem hsl(0, 9%, 85%);
+
+
+
+
+}
+
+.company_article{
+    width:6rem;
+    height:5.5rem;
+    background:white;
+    position:absolute;
+    padding-top:10px;
+    padding-bottom: 10px;
+    left:65%;
+    border-radius: 0.5rem;
+    display:none;
+    box-shadow:0.5rem 0 1rem hsl(0, 9%, 85%);
+    
+    
+   
+
+    
+    
+
+}
+.container{
+    width:100%;
+    height:90%;
+    min-height:300px;
+    background:none;
+    display:flex;
+    position: relative;
+  
+    
+}
+
+.featureandarticle_container{
+   
+   
+   width:405px;
+   height:8rem;
+   background:none; 
+   position:relative;
+}
+
+.left_container{
+    width:50%;
+    height:100%;
+    background:none;
+    display:grid;
+    grid-template-rows:20% 80%;
+    gap:1rem;
+    min-width: 405px;
+}
+
+.right_container{
+    width:50%;
+    height:100%;
+    background:none;
+    min-width: 440px;
+   
+}
+
+.forinnerleft_container{
+    display: grid;
+   
+    height:100%;
+    justify-content: center;
+}
+
+
+   
+   
+
+/* mini_containers */
+img{
+    width:80%;
+    height:92%;
+    margin:0;
+    padding:0;
+    
+   
+}
+.heading_container{
+    height:25%;
+    width:100%;
+    background:none;
+}
+
+.para{
+    height:25%;
+    width:100%;
+    background:none;
+    display:flex;
+    align-items: center;
+    font-size:18px;
+    color:hsl(0, 0%, 41%);
+}
+
+.button_container{
+    height:30%;
+    width:100%;
+    background:none;
+   position:relative;
+  
+     
+
+}
+
+.icons_container{
+    background:none;
+    height:12%;
+    width:100%;
+
+}
+
+/* stylings */
+
+h1{
+    font-size:4rem;
+}
+
+button{
+    width:8rem;
+    height:3rem;
+    position:absolute;
+    top:25%;
+    text-align: center;
+    color:hsl(0, 0%, 98%);
+    background:hsl(0, 0%, 8%);
+    border-radius:1em;
+    border:none;
+    font-weight: bold;
+    transition:0.25s;
+    
+}
+
+button:hover{
+    background:none;
+    border-style:solid;
+    color:hsl(0, 0%, 8%);
+    cursor:pointer;
+    border-width:1px;
+}
+button:active{
+    opacity:70%;
+    transition: 0.12s;
+}
+
+/*menu layouts*/
+
+.menu_selections_container{
+        height:100%;
+        position:absolute;
+        width:50%;
+        background:hsl(0, 0%, 98%);
+        z-index:99;
+        right:0;
+        display:none;
+        flex-direction: column;
+        align-items:flex-end ;
+        gap:2rem;
+        
+    }
+
+    .menu_selections{
+        display:grid;
+        font-size:1.3rem;
+        gap:1rem;
+        width:90%;
+        
+    }
+
+    #links_mobile_feature{
+       display:none;
+       gap:0.5rem;
+       margin-top:0.5rem;
+    }
+
+    #links_mobile_company{
+        display:none;
+        gap:0.5rem;
+        margin-top:0.5rem;
+     }
+ 
+
+    
+
+    li{
+        list-style:none;
+        font-size:1.2rem;
+        cursor:pointer;
+    }
+
+    .X_container{
+     height:3.8rem;
+     width:100%;
+     background:none;
+     display:flex;
+     justify-content: flex-end;
+     align-items: center;
+     
+    }
+
+    .X_remove{
+        background:transparent;
+        height:70%;
+        width:18%;
+        font-size: 2rem;
+        
+        display:flex;
+        align-items: center;
+        justify-content:flex-start;
+        
+
+
+    }
+
+    .menu_activate_company{
+        
+        font-size:1.3rem;
+    }
+
+    .menu_activate_features{
+       
+        font-size:1.3rem;
+    }
+
+    .menu_loginAndregistry{
+        width:100%;
+        display:grid;
+        justify-content: center;
+        gap:1rem;
+
+    }
+    .menu_login_select{
+        text-align: center;
+        width:10rem;
+    }
+    .menu_register_select{
+     width:10rem;
+     height:2rem;
+     background:transparent;
+     justify-content: center;
+     display:flex;
+     align-items: center;
+     border-radius:0.6rem ;
+     border-style:solid;
+     border-width:thin;
+     
+    }
+
+/* menu layouts end*/
+
+
+
+/* layout change */
+
+@media screen and (max-width: 750px) {
+    
+
+
+    .container{
+        display:flex;
+        flex-direction: column;
+    }
+
+    .forinnerleft_container{
+        height:273px;
+        display:flex;
+        width:90%;
+        flex-direction: column;
+        
+    }
+
+    .fcca_container{
+        display:none;
+    }
+
+    .left_container{
+        width:100%;
+       
+        height:50%;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .right_container{
+        width:100%;
+        order:-1;
+        
+        height:50%;
+       
+    }
+
+    img{
+        width:100%;
+    }
+
+    .featureandarticle_container{
+        display:none;
+    }
+
+    
+    .snap_container{
+        margin-left:2.5rem;
+        justify-content:flex-start;
+    }
+
+    h1{
+        font-size: 2.7rem;
+       display:flex;
+       justify-content: center;
+    }
+    
+    .para{
+        display: flex;
+        justify-content: center;
+    }
+
+    button:hover{
+        cursor:default;
+        background:hsl(0, 0%, 8%);
+        border-style:none;
+        color:hsl(0, 0%, 98%);
+        cursor:default;
+        border-width:initial;
+    }
+    button:active{
+        opacity:90%;
+        transition: 0.12s;
+    }
+
+    .button_container{
+        display:flex;
+        justify-content: center;
+    }
+
+    
+
+    .login{
+        display:none;
+    }
+
+    
+
+    .register{
+        display:none;
+    }
+
+    .menudropdown_container{
+        width:2.5rem;
+        height:100%;
+        background:none;
+        display: flex;
+        flex-direction: column;
+        gap:7px;
+        justify-content: center;
+        margin-right:1rem;
+       
+    }
+
+    .dropdownbar{
+        width:100%;
+        height:2px;
+        background:hsl(0, 0%, 8%);
+    }
+
+    .make{
+        margin-right:0.8rem;
+    }
+    
+}
+
